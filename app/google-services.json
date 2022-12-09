@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "80111085576",
+    "project_id": "dbms-3121b",
+    "storage_bucket": "dbms-3121b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80111085576:android:6fc9f82dc2d9e9cfeec9bd",
+        "android_client_info": {
+          "package_name": "com.vishnu.dbms_databasemangmentsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80111085576-3q13h859vlcorml74pq7ncrvasfriahk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhTLORoziM0HDaTkwMdriz3QmrNnVOQCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80111085576-3q13h859vlcorml74pq7ncrvasfriahk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

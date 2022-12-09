@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vishnu.dbms_databasemangmentsystem">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DBMSDatabaseMangmentSystem">
+        <activity
+            android:name=".Quiz.Danger"
+            android:exported="true" />
+        <activity
+            android:name=".Quiz.Supplier"
+            android:exported="true" />
+        <activity
+            android:name=".Quiz.LevelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Quiz.QuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Quiz.scoreActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Quiz.QuestionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.DataModel.ERDiagram.FeatureERD"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.DataModel.ERDiagram.RelationAct"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.DataModel.ERDiagram.AttributeAct"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.DataModel.ERDiagram.EntityAct"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Syntax.Group_by_Having"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Syntax.Distinct"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Syntax.Where"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Syntax.Drop"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Syntax.Alter"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Syntax.Create"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Syntax.Delete"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Syntax.Update"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Syntax.Insert"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Syntax.Syntax"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Operator"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Constriant.Check"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Constriant.DefaultD"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Constriant.Unique"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Constriant.NotNUll"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Constriant.Foreign"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Constriant.Primary"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.Constriant.ConstriantSQL"
+            android:exported="true" />
+        <activity
+            android:name=".Difference.PRIvsFOR"
+            android:exported="true" />
+        <activity
+            android:name=".Difference.SQLvsNOSQL"
+            android:exported="true" />
+        <activity
+            android:name=".Difference.DBMSvsRDBMS"
+            android:exported="true" />
+        <activity
+            android:name=".SQL.IntroOfSQL"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.DataModel.RealtionalModel"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.DataModel.ObjectOriented"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.DataModel.EntityRealtionship"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.DataModel.Network"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.DataModel.Hierarchical"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.DataModel.DataModel"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.History"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.Feature"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.Advantage"
+            android:exported="true" />
+        <activity
+            android:name=".AboutDBMS.IntroDBMS"
+            android:exported="true" />
+        <activity
+            android:name=".Another_Main"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

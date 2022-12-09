@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DBMS-Database Mangment System</string>
+    <string name="introdbms">A collection of information which is managed such that it can be updated and easily accessed is called a<b> DATABASE.</b>\n\n A software package which can be used to manipulate, validate and retrieve this database is called a <b>Database Management System.</b>\n\n For example, Airlines use this software package to book tickets and confirm reservations which are then managed to keep a track of the schedule.\n\n<br>There are majorly four types of database:\n</br><br><b>\n1.Network Database:</b>\n</br>When the details of multiple members can be linked to the files of multiple owners and vice versa, it is called a network database.<br><b>\n\n2.Hierarchical Database:</b>\n</br>When the data stored in the form of records and is connected to each other through links is called hierarchical database. Each record comprises fields and each field comprises only one value.<br><b>\n\n3.Relational Database:</b>\n</br>When the data is organised as a set of tables comprising rows and columns with a pre-defined relationship with one another, it is called a relational database.<br><b>\n\n4.Object-oriented Database :</b>\n</br>the information is represented as objects, with different types of relationships possible between two or more objects. Such databases use an object-oriented programming language for development.</string>
+    <string-array name="operator">
+        <item>Select--></item>
+        <item>AND</item>
+        <item>OR</item>
+        <item>NOT</item>
+        <item>BETWEEN</item>
+        <item>IN</item>
+        <item>LIKE</item>
+    </string-array>
+
+</resources>

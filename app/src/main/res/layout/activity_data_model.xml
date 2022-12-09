@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutDBMS.DataModel.DataModel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/average"
+            android:gravity="center"
+            android:text="Data Model"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/data_model_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vishnu Panchal"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                />
+        <TextView
+            android:id="@+id/hierarchical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/background_other"
+            android:text="1.Hierarchical Model"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/network"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Network Model"
+            android:textColor="@color/black"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/background_other"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/entity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Entity Realtionship Model"
+            android:textColor="@color/black"
+            android:background="@drawable/background_other"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="6dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/object"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Object Oriented Model"
+            android:background="@drawable/background_other"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="6dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/realtional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Realtional Model"
+            android:background="@drawable/background_other"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="6dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>
